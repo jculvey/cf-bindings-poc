@@ -1,0 +1,23 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "poc_build": "poc build nuxt_build dist/_worker.js/index.js",
+    "nuxt_build": "NITRO_PRESET=cloudflare-pages nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "pages:dev": "wrangler pages dev --compatibility-date=2023-11-21 --proxy 3000 -- pnpm run dev",
+    "pages:preview": "npx wrangler pages dev dist/",
+    "pages:deploy": "pnpm run build && wrangler pages deploy ./dist"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "nuxt": "^3.8.2",
+    "vue": "^3.3.8",
+    "vue-router": "^4.2.5",
+		"wrangler": "https://prerelease-registry.devprod.cloudflare.dev/workers-sdk/runs/7035859586/npm-package-wrangler-4523"
+  }
+}
