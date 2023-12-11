@@ -1,0 +1,599 @@
+diff --git a/dist/cache.d.ts b/dist/cache.d.ts
+deleted file mode 100644
+index 6115c6bf4f35f14c6e4202f8b1844702e7010050..0000000000000000000000000000000000000000
+diff --git a/dist/channel.d.ts b/dist/channel.d.ts
+deleted file mode 100644
+index 9bf8d11879f26eab9514c362abd16ac0f0c35364..0000000000000000000000000000000000000000
+diff --git a/dist/cli/commands.d.ts b/dist/cli/commands.d.ts
+deleted file mode 100644
+index 22907542d8df281d920296297edb206417a433fa..0000000000000000000000000000000000000000
+diff --git a/dist/cli/detectPackageManager.d.ts b/dist/cli/detectPackageManager.d.ts
+deleted file mode 100644
+index b151425c5812469fdd09f04f2b7ea42e8603ceb7..0000000000000000000000000000000000000000
+diff --git a/dist/cli/index.d.ts b/dist/cli/index.d.ts
+deleted file mode 100644
+index 3ed50b63edd2a728677f8bdc362cdf904db8a680..0000000000000000000000000000000000000000
+diff --git a/dist/cli/run.d.ts b/dist/cli/run.d.ts
+deleted file mode 100644
+index 54fdecc47f0ee1536cb682a8ba84e68601ba65f1..0000000000000000000000000000000000000000
+diff --git a/dist/cli/useJavascript.d.ts b/dist/cli/useJavascript.d.ts
+deleted file mode 100644
+index 7368bdc40832bb8a471b1f83cf6e8a7b8a463949..0000000000000000000000000000000000000000
+diff --git a/dist/cli.d.ts b/dist/cli.d.ts
+deleted file mode 100644
+index cb0ff5c3b541f646105198ee23ac0fc3d805023e..0000000000000000000000000000000000000000
+diff --git a/dist/cli.js b/dist/cli.js
+old mode 100755
+new mode 100644
+diff --git a/dist/colors.d.ts b/dist/colors.d.ts
+deleted file mode 100644
+index 5005897a676a4a14b7a79aa3b62c87ce58d816f2..0000000000000000000000000000000000000000
+diff --git a/dist/compiler/analysis.d.ts b/dist/compiler/analysis.d.ts
+deleted file mode 100644
+index 3ad828494cf9c46a89893b9cd8a5411b80b17b34..0000000000000000000000000000000000000000
+diff --git a/dist/compiler/build.d.ts b/dist/compiler/build.d.ts
+deleted file mode 100644
+index 3a2a0a4803089b5f762af519f8dfc52b2a664f6c..0000000000000000000000000000000000000000
+diff --git a/dist/compiler/cancel.d.ts b/dist/compiler/cancel.d.ts
+deleted file mode 100644
+index 409e709ae7e420d888bbcb4c6f702c4298abd573..0000000000000000000000000000000000000000
+diff --git a/dist/compiler/compiler.d.ts b/dist/compiler/compiler.d.ts
+deleted file mode 100644
+index edc59c819a6d1db95e0fc9fd83fd004089358b7f..0000000000000000000000000000000000000000
+diff --git a/dist/compiler/context.d.ts b/dist/compiler/context.d.ts
+deleted file mode 100644
+index 8b6b1c06b497c32c9176aa91bab6a2e96c846adc..0000000000000000000000000000000000000000
+diff --git a/dist/compiler/css/bundle.d.ts b/dist/compiler/css/bundle.d.ts
+deleted file mode 100644
+index 6d9df30ae52a2f4067776e0aad8332964fbb359d..0000000000000000000000000000000000000000
+diff --git a/dist/compiler/css/compiler.d.ts b/dist/compiler/css/compiler.d.ts
+deleted file mode 100644
+index a268d2e882b61523b84ec4f6b5af2d099451d2ab..0000000000000000000000000000000000000000
+diff --git a/dist/compiler/css/index.d.ts b/dist/compiler/css/index.d.ts
+deleted file mode 100644
+index 1523b365092c6e0593e6956106fa42aa50d3312d..0000000000000000000000000000000000000000
+diff --git a/dist/compiler/css/plugins/bundleEntry.d.ts b/dist/compiler/css/plugins/bundleEntry.d.ts
+deleted file mode 100644
+index a7a37aa091849c0ac3cc14c29072a1d28704075a..0000000000000000000000000000000000000000
+diff --git a/dist/compiler/fileWatchCache.d.ts b/dist/compiler/fileWatchCache.d.ts
+deleted file mode 100644
+index c8d8dae8b43d19bc9731777e0ff0072e9f583dd8..0000000000000000000000000000000000000000
+diff --git a/dist/compiler/index.d.ts b/dist/compiler/index.d.ts
+deleted file mode 100644
+index 288059a6ae79d0a5f5b256261e0c6a59f3b56464..0000000000000000000000000000000000000000
+diff --git a/dist/compiler/js/compiler.d.ts b/dist/compiler/js/compiler.d.ts
+deleted file mode 100644
+index bc1a15e47f26b062acf8f6185b81d3340354a9fa..0000000000000000000000000000000000000000
+diff --git a/dist/compiler/js/index.d.ts b/dist/compiler/js/index.d.ts
+deleted file mode 100644
+index c67a1d153e8ce853b0823c46c8eca95497afc86b..0000000000000000000000000000000000000000
+diff --git a/dist/compiler/js/plugins/browserNodeBuiltinsPolyfill.d.ts b/dist/compiler/js/plugins/browserNodeBuiltinsPolyfill.d.ts
+deleted file mode 100644
+index 201f5e529c977212ad4af7050ac3f3dc154f0025..0000000000000000000000000000000000000000
+diff --git a/dist/compiler/js/plugins/hmr.d.ts b/dist/compiler/js/plugins/hmr.d.ts
+deleted file mode 100644
+index 8402a1b84360a88342636450ab7ebc1b62300885..0000000000000000000000000000000000000000
+diff --git a/dist/compiler/js/plugins/routes.d.ts b/dist/compiler/js/plugins/routes.d.ts
+deleted file mode 100644
+index 2c9a13fd71243cb9317f9abed7b8317d3f9a6b6d..0000000000000000000000000000000000000000
+diff --git a/dist/compiler/js/write.d.ts b/dist/compiler/js/write.d.ts
+deleted file mode 100644
+index a57419eb5fa9e976a774f451fbf310f7872653ac..0000000000000000000000000000000000000000
+diff --git a/dist/compiler/lazyValue.d.ts b/dist/compiler/lazyValue.d.ts
+deleted file mode 100644
+index 5dff2a7c937d6abb3b73d0758c7ae60222a4bfcc..0000000000000000000000000000000000000000
+diff --git a/dist/compiler/manifest.d.ts b/dist/compiler/manifest.d.ts
+deleted file mode 100644
+index 3e82755d8dedb068454e87c98b0ddf03011f2af3..0000000000000000000000000000000000000000
+diff --git a/dist/compiler/options.d.ts b/dist/compiler/options.d.ts
+deleted file mode 100644
+index 0d6c7866deba8919a4717762f22b1927928a3b5e..0000000000000000000000000000000000000000
+diff --git a/dist/compiler/plugins/absoluteCssUrlsPlugin.d.ts b/dist/compiler/plugins/absoluteCssUrlsPlugin.d.ts
+deleted file mode 100644
+index 3c6406ab07eb2c5fa2b40b5627c05a698027aa4e..0000000000000000000000000000000000000000
+diff --git a/dist/compiler/plugins/cssBundlePlugin.d.ts b/dist/compiler/plugins/cssBundlePlugin.d.ts
+deleted file mode 100644
+index 2926fb6c0617039bfadb214e4e8da63ebcf4820b..0000000000000000000000000000000000000000
+diff --git a/dist/compiler/plugins/cssImports.d.ts b/dist/compiler/plugins/cssImports.d.ts
+deleted file mode 100644
+index a4c95354cb79e2cf4312d98ae7f633d2e92f8e43..0000000000000000000000000000000000000000
+diff --git a/dist/compiler/plugins/cssModuleImports.d.ts b/dist/compiler/plugins/cssModuleImports.d.ts
+deleted file mode 100644
+index cf050560cd3e2d0f846fc1f6849f9408b7eaf89c..0000000000000000000000000000000000000000
+diff --git a/dist/compiler/plugins/cssSideEffectImports.d.ts b/dist/compiler/plugins/cssSideEffectImports.d.ts
+deleted file mode 100644
+index 13fc9c93c147396fdc43929f714a1bae037f0edb..0000000000000000000000000000000000000000
+diff --git a/dist/compiler/plugins/emptyModules.d.ts b/dist/compiler/plugins/emptyModules.d.ts
+deleted file mode 100644
+index 102a62f0779532ed1ce5cb465af53ce0b6f99f5d..0000000000000000000000000000000000000000
+diff --git a/dist/compiler/plugins/external.d.ts b/dist/compiler/plugins/external.d.ts
+deleted file mode 100644
+index 93fb432b33a9386e2e72cbd163ad437096c36851..0000000000000000000000000000000000000000
+diff --git a/dist/compiler/plugins/mdx.d.ts b/dist/compiler/plugins/mdx.d.ts
+deleted file mode 100644
+index 9c2414fbe892369804aeb6b803a8a54bc4bcc880..0000000000000000000000000000000000000000
+diff --git a/dist/compiler/plugins/vanillaExtract.d.ts b/dist/compiler/plugins/vanillaExtract.d.ts
+deleted file mode 100644
+index 480e8ef60fb3776ba4009537aa1f34fe70a81801..0000000000000000000000000000000000000000
+diff --git a/dist/compiler/server/compiler.d.ts b/dist/compiler/server/compiler.d.ts
+deleted file mode 100644
+index ecac93480fcfdbd79906e6e1aa337d5276f15caf..0000000000000000000000000000000000000000
+diff --git a/dist/compiler/server/index.d.ts b/dist/compiler/server/index.d.ts
+deleted file mode 100644
+index c67a1d153e8ce853b0823c46c8eca95497afc86b..0000000000000000000000000000000000000000
+diff --git a/dist/compiler/server/plugins/bareImports.d.ts b/dist/compiler/server/plugins/bareImports.d.ts
+deleted file mode 100644
+index 865280f919b1fe88cb7292afa1a052b3561a9872..0000000000000000000000000000000000000000
+diff --git a/dist/compiler/server/plugins/entry.d.ts b/dist/compiler/server/plugins/entry.d.ts
+deleted file mode 100644
+index 104dfa0b228964b62fcbb62e48696137ed6ae2f6..0000000000000000000000000000000000000000
+diff --git a/dist/compiler/server/plugins/manifest.d.ts b/dist/compiler/server/plugins/manifest.d.ts
+deleted file mode 100644
+index ce5b2429bd8187a1c65fc169b1f41ce8b8f2b143..0000000000000000000000000000000000000000
+diff --git a/dist/compiler/server/plugins/routes.d.ts b/dist/compiler/server/plugins/routes.d.ts
+deleted file mode 100644
+index 4a00baf2b585e81bc8a15fd12eefb36feb6f5062..0000000000000000000000000000000000000000
+diff --git a/dist/compiler/server/plugins/serverNodeBuiltinsPolyfill.d.ts b/dist/compiler/server/plugins/serverNodeBuiltinsPolyfill.d.ts
+deleted file mode 100644
+index 8177fc394bb059bbdc825ec7b79c31d5b74b4cb2..0000000000000000000000000000000000000000
+diff --git a/dist/compiler/server/virtualModules.d.ts b/dist/compiler/server/virtualModules.d.ts
+deleted file mode 100644
+index 5393fae8c02d574e2e4b6c7c73a1da82245b8ae9..0000000000000000000000000000000000000000
+diff --git a/dist/compiler/server/write.d.ts b/dist/compiler/server/write.d.ts
+deleted file mode 100644
+index fca72ceffc6db97091f208d1298fd08d32ae18a4..0000000000000000000000000000000000000000
+diff --git a/dist/compiler/utils/crypto.d.ts b/dist/compiler/utils/crypto.d.ts
+deleted file mode 100644
+index e9efabf42c0516ecbd59bae8ed908f287dfdb70f..0000000000000000000000000000000000000000
+diff --git a/dist/compiler/utils/loaders.d.ts b/dist/compiler/utils/loaders.d.ts
+deleted file mode 100644
+index ef0356539ae07d256727ad4c65973e3953b485a3..0000000000000000000000000000000000000000
+diff --git a/dist/compiler/utils/log.d.ts b/dist/compiler/utils/log.d.ts
+deleted file mode 100644
+index 09affa802f90758de14eba7cc2d4e3651b8a3122..0000000000000000000000000000000000000000
+diff --git a/dist/compiler/utils/postcss.d.ts b/dist/compiler/utils/postcss.d.ts
+deleted file mode 100644
+index b52e5b269fe380fe47f36e20a53a88f40c2bf03c..0000000000000000000000000000000000000000
+diff --git a/dist/compiler/utils/routeExports.d.ts b/dist/compiler/utils/routeExports.d.ts
+deleted file mode 100644
+index 3f0c6eb114eadd215ec5ef56e1462075f2a3ce20..0000000000000000000000000000000000000000
+diff --git a/dist/compiler/utils/tsconfig.d.ts b/dist/compiler/utils/tsconfig.d.ts
+deleted file mode 100644
+index 740770b45a8cd12d8d0130661fb27c74e53f2852..0000000000000000000000000000000000000000
+diff --git a/dist/compiler/watch.d.ts b/dist/compiler/watch.d.ts
+deleted file mode 100644
+index 1524915d65b8393d21eb6d3f30458ec8e9102c0f..0000000000000000000000000000000000000000
+diff --git a/dist/config/defaults/entry.dev.d.ts b/dist/config/defaults/entry.dev.d.ts
+deleted file mode 100644
+index 4cab5535aa1fb17f8f369d4dcebbafad7317500e..0000000000000000000000000000000000000000
+diff --git a/dist/config/flat-routes.d.ts b/dist/config/flat-routes.d.ts
+deleted file mode 100644
+index 95a0326d81412cbc628aeb5631db37de5345308c..0000000000000000000000000000000000000000
+diff --git a/dist/config/format.d.ts b/dist/config/format.d.ts
+deleted file mode 100644
+index d226719e6437624fa5970f29143dbe012a0dccef..0000000000000000000000000000000000000000
+diff --git a/dist/config/routes.d.ts b/dist/config/routes.d.ts
+deleted file mode 100644
+index af0992b9836f9483230166cdab937e940a4bc798..0000000000000000000000000000000000000000
+diff --git a/dist/config/serverModes.d.ts b/dist/config/serverModes.d.ts
+deleted file mode 100644
+index 0406f3fd7e9907b4cf4914d0e81354a693803ef0..0000000000000000000000000000000000000000
+diff --git a/dist/config.d.ts b/dist/config.d.ts
+deleted file mode 100644
+index d7fa66b26108773f6ff7c6208f74bf9bd66d681e..0000000000000000000000000000000000000000
+diff --git a/dist/config.js b/dist/config.js
+index f9639f52bcfc394a08267c71cbed43f6c6c7279f..04f892c280259634d16786a0a62621316d1b2f55 100644
+--- a/dist/config.js
++++ b/dist/config.js
+@@ -240,7 +240,8 @@ async function resolveConfig(appConfig, {
+     tailwind,
+     watchPaths,
+     tsconfigPath,
+-    future
++    future,
++    devLoadContext: appConfig.devLoadContext
+   };
+ }
+ function addTrailingSlash(path) {
+diff --git a/dist/dependencies.d.ts b/dist/dependencies.d.ts
+deleted file mode 100644
+index 65d82f56c03c479676f825657c3c75a573971c52..0000000000000000000000000000000000000000
+diff --git a/dist/devServer/index.d.ts b/dist/devServer/index.d.ts
+deleted file mode 100644
+index cf891617f4cd7fc47cbe826e9ca77f9cf6e07832..0000000000000000000000000000000000000000
+diff --git a/dist/devServer/liveReload.d.ts b/dist/devServer/liveReload.d.ts
+deleted file mode 100644
+index 7b22c00d55ae5f04712b05653074a4b7c5aec491..0000000000000000000000000000000000000000
+diff --git a/dist/devServer_unstable/env.d.ts b/dist/devServer_unstable/env.d.ts
+deleted file mode 100644
+index 4d279dbc1024450acde8dc2d8288bf525d9d4d8d..0000000000000000000000000000000000000000
+diff --git a/dist/devServer_unstable/hdr.d.ts b/dist/devServer_unstable/hdr.d.ts
+deleted file mode 100644
+index c4f77226908e6c828e795bcf09c32a54a476061f..0000000000000000000000000000000000000000
+diff --git a/dist/devServer_unstable/hmr.d.ts b/dist/devServer_unstable/hmr.d.ts
+deleted file mode 100644
+index f6b63183721cb574d1e25cfa17c31865d00464d5..0000000000000000000000000000000000000000
+diff --git a/dist/devServer_unstable/index.d.ts b/dist/devServer_unstable/index.d.ts
+deleted file mode 100644
+index 3b2e06a9e5d88c27c8ce9de27b13b57cb8144f39..0000000000000000000000000000000000000000
+diff --git a/dist/devServer_unstable/proc.d.ts b/dist/devServer_unstable/proc.d.ts
+deleted file mode 100644
+index 0f7188b336990965b3569c783dc2fa73b1520073..0000000000000000000000000000000000000000
+diff --git a/dist/devServer_unstable/socket.d.ts b/dist/devServer_unstable/socket.d.ts
+deleted file mode 100644
+index 84c21fefeb9327b796acdf93c6f1562a22718cd7..0000000000000000000000000000000000000000
+diff --git a/dist/index.d.ts b/dist/index.d.ts
+deleted file mode 100644
+index c43cfb236ca5d46d4168fd3514d0d16b07fac22b..0000000000000000000000000000000000000000
+diff --git a/dist/invariant.d.ts b/dist/invariant.d.ts
+deleted file mode 100644
+index 252f0842b18cf756ec6c5f1c2bcfcc6c323f5cfe..0000000000000000000000000000000000000000
+diff --git a/dist/manifest.d.ts b/dist/manifest.d.ts
+deleted file mode 100644
+index c91a9a78ff34574f17bed0117656f4c92ca85d07..0000000000000000000000000000000000000000
+diff --git a/dist/modules.d.ts b/dist/modules.d.ts
+deleted file mode 100644
+index 0118e4ce4e42a59df0c6a6d6f8737860f3b90a0c..0000000000000000000000000000000000000000
+diff --git a/dist/package.json b/dist/package.json
+index ed9fe416c2a75e60b4dd51420de0c9691699aca5..5cbc0a1841d0fd5276f3299026e891772b820d7d 100644
+--- a/dist/package.json
++++ b/dist/package.json
+@@ -29,7 +29,7 @@
+     "@mdx-js/mdx": "^2.3.0",
+     "@npmcli/package-json": "^4.0.1",
+     "@remix-run/node": "2.3.0",
+-    "@remix-run/router": "1.12.0-pre.0",
++    "@remix-run/router": "1.13.0-pre.0",
+     "@remix-run/server-runtime": "2.3.0",
+     "@types/mdx": "^2.0.5",
+     "@vanilla-extract/integration": "^6.2.0",
+@@ -95,7 +95,7 @@
+     "msw": "^1.2.3",
+     "strip-ansi": "^6.0.1",
+     "tiny-invariant": "^1.2.0",
+-    "vite": "5.0.0-beta.18"
++    "vite": "^5.0.0"
+   },
+   "peerDependencies": {
+     "@remix-run/serve": "^2.3.0",
+diff --git a/dist/result.d.ts b/dist/result.d.ts
+deleted file mode 100644
+index f096b30ad7979720f5e4fc75743480f44bf52153..0000000000000000000000000000000000000000
+diff --git a/dist/server-build.d.ts b/dist/server-build.d.ts
+deleted file mode 100644
+index 6b9c1a8cb66604e529ec6ac81a8cd2980c230a84..0000000000000000000000000000000000000000
+diff --git a/dist/tsconfig.tsbuildinfo b/dist/tsconfig.tsbuildinfo
+deleted file mode 100644
+index 03a775de1aaca6e4d8e138d363912c58c3f3928b..0000000000000000000000000000000000000000
+diff --git a/dist/tux/format.d.ts b/dist/tux/format.d.ts
+deleted file mode 100644
+index 25e0f2fc5a216959bbc077739ec5cacdc940e241..0000000000000000000000000000000000000000
+diff --git a/dist/tux/index.d.ts b/dist/tux/index.d.ts
+deleted file mode 100644
+index 6edc896e2115da3216ad1a544ddf100619be3952..0000000000000000000000000000000000000000
+diff --git a/dist/tux/logger.d.ts b/dist/tux/logger.d.ts
+deleted file mode 100644
+index 2e3b241eb7de96e4b0f3b420b6daacfbf5ee6530..0000000000000000000000000000000000000000
+diff --git a/dist/vite/babel.d.ts b/dist/vite/babel.d.ts
+deleted file mode 100644
+index f1fa883ca724ac1b8ae461c54a4c3c8e4154ab31..0000000000000000000000000000000000000000
+diff --git a/dist/vite/index.d.ts b/dist/vite/index.d.ts
+deleted file mode 100644
+index 599fde7be90f5b4b60f47d5e2104396e8504a7eb..0000000000000000000000000000000000000000
+diff --git a/dist/vite/legacy-css-imports.d.ts b/dist/vite/legacy-css-imports.d.ts
+deleted file mode 100644
+index 70613d251fbd309ab3dedec7da64660671426b80..0000000000000000000000000000000000000000
+diff --git a/dist/vite/legacy-css-imports.js b/dist/vite/legacy-css-imports.js
+deleted file mode 100644
+index 0aa07ef46460bffd019a43782725247aa86c7187..0000000000000000000000000000000000000000
+diff --git a/dist/vite/node/adapter.d.ts b/dist/vite/node/adapter.d.ts
+deleted file mode 100644
+index 7b8681df6d52e2b1c011668f682e2b450efbe5b1..0000000000000000000000000000000000000000
+diff --git a/dist/vite/node/adapter.js b/dist/vite/node/adapter.js
+index c6f7097c1257ff59652836db54426030120881de..570e4f420272d2a8e803d628937435cbecd94a8d 100644
+--- a/dist/vite/node/adapter.js
++++ b/dist/vite/node/adapter.js
+@@ -184,11 +184,11 @@ async function handleNodeResponse(webRes, res) {
+ let createRequestHandler = (build, {
+   mode = "production",
+   criticalCss
+-}) => {
+-  let handler = serverRuntime.createRequestHandler(build, mode);
++}, devLoadContext) => {
++  let handler = serverRuntime.createRequestHandler(build, mode, devLoadContext);
+   return async (req, res) => {
+     let request = createRequest(req);
+-    let response = await handler(request, {}, {
++    let response = await handler(request, {
+       __criticalCss: criticalCss
+     });
+     handleNodeResponse(response, res);
+diff --git a/dist/vite/plugin.d.ts b/dist/vite/plugin.d.ts
+deleted file mode 100644
+index 02ad5762863889e7c63ab432d1e4df207d8e4f62..0000000000000000000000000000000000000000
+diff --git a/dist/vite/plugin.js b/dist/vite/plugin.js
+index 2a9bc7066ecd3819b9dd490d6a8cb543682cdbfa..e092db65c59060e344a75916c9dd5a60c9df086f 100644
+--- a/dist/vite/plugin.js
++++ b/dist/vite/plugin.js
+@@ -26,7 +26,6 @@ var adapter = require('./node/adapter.js');
+ var styles = require('./styles.js');
+ var vmod = require('./vmod.js');
+ var removeExports = require('./remove-exports.js');
+-var legacyCssImports = require('./legacy-css-imports.js');
+ var replaceImportSpecifier = require('./replace-import-specifier.js');
+ 
+ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'default' in e ? e : { 'default': e }; }
+@@ -62,34 +61,34 @@ var pc__default = /*#__PURE__*/_interopDefaultLegacy(pc);
+ // when the Vite plugin's config hook is executed
+ // eslint-disable-next-line @typescript-eslint/consistent-type-imports
+ let vite;
+-const supportedRemixConfigKeys = ["appDirectory", "assetsBuildDirectory", "future", "ignoredRouteFiles", "publicPath", "routes", "serverBuildPath", "serverModuleFormat"];
++const supportedRemixConfigKeys = ["appDirectory", "assetsBuildDirectory", "future", "ignoredRouteFiles", "publicPath", "routes", "serverBuildPath", "serverModuleFormat", "devLoadContext"];
++
++// We need to provide different JSDoc comments in some cases due to differences
++// between the Remix config and the Vite plugin.
+ let serverEntryId = vmod.id("server-entry");
+ let serverManifestId = vmod.id("server-manifest");
+ let browserManifestId = vmod.id("browser-manifest");
+ let remixReactProxyId = vmod.id("remix-react-proxy");
+ let hmrRuntimeId = vmod.id("hmr-runtime");
+ let injectHmrRuntimeId = vmod.id("inject-hmr-runtime");
+-const normalizePath = p => {
+-  let unixPath = p.replace(/[\\/]+/g, "/").replace(/^([a-zA-Z]+:|\.\/)/, "");
+-  return vite.normalizePath(unixPath);
+-};
+ const resolveFileUrl = ({
+   rootDirectory
+ }, filePath) => {
+   let relativePath = path__namespace.relative(rootDirectory, filePath);
+   let isWithinRoot = !relativePath.startsWith("..") && !path__namespace.isAbsolute(relativePath);
+-
+-  // Vite will prevent serving files outside of the workspace
+-  // unless user explictly opts in with `server.fs.allow`
+-  // https://vitejs.dev/config/server-options.html#server-fs-allow
+-  if (!isWithinRoot) return `/@fs` + filePath;
+-  return `/${normalizePath(relativePath)}`;
++  if (!isWithinRoot) {
++    // Vite will prevent serving files outside of the workspace
++    // unless user explictly opts in with `server.fs.allow`
++    // https://vitejs.dev/config/server-options.html#server-fs-allow
++    return path__namespace.posix.join("/@fs", vite.normalizePath(filePath));
++  }
++  return "/" + vite.normalizePath(relativePath);
+ };
+ const isJsFile = filePath => /\.[cm]?[jt]sx?$/i.test(filePath);
+ const resolveRelativeRouteFilePath = (route, pluginConfig) => {
+   let file = route.file;
+   let fullPath = path__namespace.resolve(pluginConfig.appDirectory, file);
+-  return normalizePath(fullPath);
++  return vite.normalizePath(fullPath);
+ };
+ let vmods = [serverEntryId, serverManifestId, browserManifestId];
+ const getHash = (source, maxLength) => {
+@@ -98,7 +97,7 @@ const getHash = (source, maxLength) => {
+ };
+ const resolveBuildAssetPaths = (pluginConfig, viteManifest, absoluteFilePath) => {
+   let rootRelativeFilePath = path__namespace.relative(pluginConfig.rootDirectory, absoluteFilePath);
+-  let manifestKey = normalizePath(rootRelativeFilePath);
++  let manifestKey = vite.normalizePath(rootRelativeFilePath);
+   let entryChunk = viteManifest[manifestKey];
+   if (!entryChunk) {
+     let knownManifestKeys = Object.keys(viteManifest).map(key => '"' + key + '"').join(", ");
+@@ -190,10 +189,17 @@ const remixVitePlugin = (options = {}) => {
+   let cachedPluginConfig;
+   let resolvePluginConfig = async () => {
+     var _options$future;
+-    let rootDirectory = viteUserConfig.root ?? process.env.REMIX_ROOT ?? process.cwd();
++    let defaults = {
++      serverBuildPath: "build/server/index.js",
++      assetsBuildDirectory: "build/client",
++      publicPath: "/"
++    };
++    let config$1 = {
++      ...defaults,
++      ...pick__default["default"](options, supportedRemixConfigKeys) // Avoid leaking any config options that the Vite plugin doesn't support
++    };
+ 
+-    // Avoid leaking any config options that the Vite plugin doesn't support
+-    let config$1 = pick__default["default"](options, supportedRemixConfigKeys);
++    let rootDirectory = viteUserConfig.root ?? process.env.REMIX_ROOT ?? process.cwd();
+ 
+     // Only select the Remix config options that the Vite plugin uses
+     let {
+@@ -205,7 +211,8 @@ const remixVitePlugin = (options = {}) => {
+       entryServerFilePath,
+       serverBuildPath,
+       serverModuleFormat,
+-      relativeAssetsBuildDirectory
++      relativeAssetsBuildDirectory,
++      devLoadContext
+     } = await config.resolveConfig(config$1, {
+       rootDirectory
+     });
+@@ -222,7 +229,8 @@ const remixVitePlugin = (options = {}) => {
+       relativeAssetsBuildDirectory,
+       future: {
+         v3_fetcherPersist: ((_options$future = options.future) === null || _options$future === void 0 ? void 0 : _options$future.v3_fetcherPersist) === true
+-      }
++      },
++      devLoadContext
+     };
+   };
+   let getServerEntry = async () => {
+@@ -282,8 +290,8 @@ const remixVitePlugin = (options = {}) => {
+       routes
+     };
+     let version = getHash(JSON.stringify(fingerprintedValues), 8);
+-    let manifestFilename = `manifest-${version}.js`;
+-    let url = `${pluginConfig.publicPath}${manifestFilename}`;
++    let manifestPath = `assets/manifest-${version}.js`;
++    let url = `${pluginConfig.publicPath}${manifestPath}`;
+     let nonFingerprintedValues = {
+       url,
+       version
+@@ -292,7 +300,7 @@ const remixVitePlugin = (options = {}) => {
+       ...fingerprintedValues,
+       ...nonFingerprintedValues
+     };
+-    await writeFileSafe(path__namespace.join(pluginConfig.assetsBuildDirectory, manifestFilename), `window.__remixManifest=${JSON.stringify(manifest)};`);
++    await writeFileSafe(path__namespace.join(pluginConfig.assetsBuildDirectory, manifestPath), `window.__remixManifest=${JSON.stringify(manifest)};`);
+     return manifest;
+   };
+   let getDevManifest = async () => {
+@@ -386,8 +394,14 @@ const remixVitePlugin = (options = {}) => {
+                 input: [pluginConfig.entryClientFilePath, ...Object.values(pluginConfig.routes).map(route => path__namespace.resolve(pluginConfig.appDirectory, route.file))]
+               }
+             } : {
++              // We move SSR-only assets to client assets. Note that the
++              // SSR build can also emit code-split JS files (e.g. by
++              // dynamic import) under the same assets directory
++              // regardless of "ssrEmitAssets" option, so we also need to
++              // keep these JS files have to be kept as-is.
+               ssrEmitAssets: true,
+-              // We move SSR-only assets to client assets and clean the rest
++              copyPublicDir: false,
++              // Assets in the public directory are only used by the client
+               manifest: true,
+               // We need the manifest to detect SSR-only assets
+               outDir: path__namespace.dirname(pluginConfig.serverBuildPath),
+@@ -533,6 +547,7 @@ const remixVitePlugin = (options = {}) => {
+         if (!vite.config.server.middlewareMode) {
+           vite.middlewares.use(async (req, res, next) => {
+             try {
++              let pluginConfig = await resolvePluginConfig();
+               let locals = localsByRequest.get(req);
+               invariant["default"](locals, "No Remix locals found for request");
+               let {
+@@ -542,7 +557,7 @@ const remixVitePlugin = (options = {}) => {
+               let handle = adapter.createRequestHandler(build, {
+                 mode: "development",
+                 criticalCss
+-              });
++              }, pluginConfig.devLoadContext);
+               await handle(req, res);
+             } catch (error) {
+               next(error);
+@@ -553,7 +568,7 @@ const remixVitePlugin = (options = {}) => {
+     },
+     writeBundle: {
+       // After the SSR build is finished, we inspect the Vite manifest for
+-      // the SSR build and move all server assets to client assets directory
++      // the SSR build and move server-only assets to client assets directory
+       async handler() {
+         if (!ssrBuildContext.isSsrBuild) {
+           return;
+@@ -569,23 +584,34 @@ const remixVitePlugin = (options = {}) => {
+         let ssrViteManifest = await loadViteManifest(serverBuildDir);
+         let clientViteManifest = await loadViteManifest(assetsBuildDirectory);
+         let clientAssetPaths = new Set(Object.values(clientViteManifest).flatMap(chunk => chunk.assets ?? []));
+-        let ssrOnlyAssetPaths = new Set(Object.values(ssrViteManifest).flatMap(chunk => chunk.assets ?? [])
+-        // Only move assets that aren't in the client build
+-        .filter(asset => !clientAssetPaths.has(asset)));
+-        let movedAssetPaths = await Promise.all(Array.from(ssrOnlyAssetPaths).map(async ssrAssetPath => {
++        let ssrAssetPaths = new Set(Object.values(ssrViteManifest).flatMap(chunk => chunk.assets ?? []));
++
++        // We only move assets that aren't in the client build, otherwise we
++        // remove them. These assets only exist because we explicitly set
++        // `ssrEmitAssets: true` in the SSR Vite config. These assets
++        // typically wouldn't exist by default, which is why we assume it's
++        // safe to remove them. We're aiming for a clean build output so that
++        // unnecessary assets don't get deployed alongside the server code.
++        let movedAssetPaths = [];
++        for (let ssrAssetPath of ssrAssetPaths) {
+           let src = path__namespace.join(serverBuildDir, ssrAssetPath);
+-          let dest = path__namespace.join(assetsBuildDirectory, ssrAssetPath);
+-          await fse__namespace.move(src, dest);
+-          return dest;
+-        }));
++          if (!clientAssetPaths.has(ssrAssetPath)) {
++            let dest = path__namespace.join(assetsBuildDirectory, ssrAssetPath);
++            await fse__namespace.move(src, dest);
++            movedAssetPaths.push(dest);
++          } else {
++            await fse__namespace.remove(src);
++          }
++        }
++
++        // We assume CSS files from the SSR build are unnecessary and remove
++        // them for the same reasons as above.
++        let ssrCssPaths = Object.values(ssrViteManifest).flatMap(chunk => chunk.css ?? []);
++        await Promise.all(ssrCssPaths.map(cssPath => fse__namespace.remove(path__namespace.join(serverBuildDir, cssPath))));
+         let logger = resolvedViteConfig.logger;
+         if (movedAssetPaths.length) {
+           logger.info(["", `${pc__default["default"].green("✓")} ${movedAssetPaths.length} asset${movedAssetPaths.length > 1 ? "s" : ""} moved from Remix server build to client assets.`, ...movedAssetPaths.map(movedAssetPath => pc__default["default"].dim(path__namespace.relative(rootDirectory, movedAssetPath))), ""].join("\n"));
+         }
+-        let ssrAssetsDir = path__namespace.join(resolvedViteConfig.build.outDir, resolvedViteConfig.build.assetsDir);
+-        if (fse__namespace.existsSync(ssrAssetsDir)) {
+-          await fse__namespace.remove(ssrAssetsDir);
+-        }
+       }
+     },
+     async buildEnd() {
+@@ -687,7 +713,7 @@ const remixVitePlugin = (options = {}) => {
+     load(id) {
+       if (id === vmod.resolve(remixReactProxyId)) {
+         // TODO: ensure react refresh is initialized before `<Scripts />`
+-        return ['import { createElement } from "react";', 'export * from "@remix-run/react";', `export const LiveReload = ${viteCommand !== "serve"} ? () => null : `, '() => createElement("script", {', "  dangerouslySetInnerHTML: { ", "    __html: `window.__remixLiveReloadEnabled = true`", "  }", "});"].join("\n");
++        return ['import { createElement } from "react";', 'export * from "@remix-run/react";', `export const LiveReload = ${viteCommand !== "serve"} ? () => null : `, '({ nonce = undefined }) => createElement("script", {', "  nonce,", "  dangerouslySetInnerHTML: { ", "    __html: `window.__remixLiveReloadEnabled = true`", "  }", "});"].join("\n");
+       }
+     }
+   }, {
+@@ -770,19 +796,11 @@ const remixVitePlugin = (options = {}) => {
+       });
+       return modules;
+     }
+-  }, ...(options.legacyCssImports ? [{
+-    name: "remix-legacy-css-imports",
+-    enforce: "pre",
+-    transform(code) {
+-      if (code.includes('.css"') || code.includes(".css'")) {
+-        return legacyCssImports.transformLegacyCssImports(code);
+-      }
+-    }
+-  }] : [])];
++  }];
+ };
+ function addRefreshWrapper(pluginConfig, code, id) {
+   let isRoute = getRoute(pluginConfig, id);
+-  let acceptExports = isRoute ? ["meta", "links", "shouldRevalidate"] : [];
++  let acceptExports = isRoute ? ["handle", "meta", "links", "shouldRevalidate"] : [];
+   return REACT_REFRESH_HEADER.replace("__SOURCE__", JSON.stringify(id)) + code + REACT_REFRESH_FOOTER.replace("__SOURCE__", JSON.stringify(id)).replace("__ACCEPT_EXPORTS__", JSON.stringify(acceptExports));
+ }
+ const REACT_REFRESH_HEADER = `
+diff --git a/dist/vite/remove-exports-test.d.ts b/dist/vite/remove-exports-test.d.ts
+deleted file mode 100644
+index cb0ff5c3b541f646105198ee23ac0fc3d805023e..0000000000000000000000000000000000000000
+diff --git a/dist/vite/remove-exports.d.ts b/dist/vite/remove-exports.d.ts
+deleted file mode 100644
+index a3dc3c033398f02344b6a0479e81f725285ee418..0000000000000000000000000000000000000000
+diff --git a/dist/vite/replace-import-specifier.d.ts b/dist/vite/replace-import-specifier.d.ts
+deleted file mode 100644
+index 89728546432bf81f54d36968134260134191a45d..0000000000000000000000000000000000000000
+diff --git a/dist/vite/styles.d.ts b/dist/vite/styles.d.ts
+deleted file mode 100644
+index e1cc9e76e20c37fb6fd400923c9f85c6cace2fc9..0000000000000000000000000000000000000000
+diff --git a/dist/vite/vmod.d.ts b/dist/vite/vmod.d.ts
+deleted file mode 100644
+index 44babfce77ba487d019a51c6e117bca77c91829d..0000000000000000000000000000000000000000
+diff --git a/package.json b/package.json
+index ed9fe416c2a75e60b4dd51420de0c9691699aca5..5cbc0a1841d0fd5276f3299026e891772b820d7d 100644
+--- a/package.json
++++ b/package.json
+@@ -29,7 +29,7 @@
+     "@mdx-js/mdx": "^2.3.0",
+     "@npmcli/package-json": "^4.0.1",
+     "@remix-run/node": "2.3.0",
+-    "@remix-run/router": "1.12.0-pre.0",
++    "@remix-run/router": "1.13.0-pre.0",
+     "@remix-run/server-runtime": "2.3.0",
+     "@types/mdx": "^2.0.5",
+     "@vanilla-extract/integration": "^6.2.0",
+@@ -95,7 +95,7 @@
+     "msw": "^1.2.3",
+     "strip-ansi": "^6.0.1",
+     "tiny-invariant": "^1.2.0",
+-    "vite": "5.0.0-beta.18"
++    "vite": "^5.0.0"
+   },
+   "peerDependencies": {
+     "@remix-run/serve": "^2.3.0",
