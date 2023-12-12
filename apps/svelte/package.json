@@ -9,7 +9,8 @@
     "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
     "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
     "pages:dev": "wrangler pages dev --compatibility-date=2023-11-21 --proxy 5173 -- pnpm run dev",
-    "pages:deploy": "pnpm run build && wrangler pages deploy .svelte-kit/cloudflare"
+    "pages:deploy": "pnpm run build && wrangler pages deploy .svelte-kit/cloudflare",
+    "pages:preview": "npx wrangler pages dev .svelte-kit/cloudflare"
   },
   "devDependencies": {
     "@sveltejs/adapter-auto": "^2.0.0",

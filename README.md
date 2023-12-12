@@ -9,8 +9,10 @@ Each app can be run with `pnpm run dev` and will show info about KV on the root 
 
 The code here is very rough at the moment, only aimed at validating the concept at the most basic level for each framework
 
+> [!NOTE]
+> We've verified that production builds still works as intended for each framework (having potential dev wrangler logic tree-shaken away)
+
 Things that still need to be done:
-- Verying `build` still works as intended for each framework
 - Testing bindings types other than KV
 - Identifying what if any frameworks if any would benefit from the help of a library function (ideally, wrangler export)
 
