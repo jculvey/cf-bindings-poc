@@ -9,9 +9,8 @@ export const meta: MetaFunction = () => {
   ];
 };
 
-export async function loader(args: LoaderFunctionArgs) {
-  debugger;
-  const { MY_KV } = args.context.env;
+export async function loader({ context }: LoaderFunctionArgs) {
+  const { MY_KV } = context.env;
 
   const value = await MY_KV.get("my-key");
 
