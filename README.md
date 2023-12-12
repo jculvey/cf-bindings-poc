@@ -2,6 +2,9 @@
 
 This is a simple poc monorepo that illustrates how we can make bindings work in local dev using bindings supplied by `getBindingsProxy` in framework userland code.
 
+> [!WARNING]
+> `getBindingsProxy` is not yet part of wrangler, we are just using the prerelease from: https://github.com/cloudflare/workers-sdk/pull/4523. The utility's API can still change
+
 > [!NOTE]
 > Here we only analyze the feasibility of allowing developers to access bindings locally and not to run code in workerd (as thus far we only had success with doing that with `preact` which doesn't even provide access to bindings)
 
