@@ -1,0 +1,28 @@
+diff --git a/src/exports/vite/dev/index.js b/src/exports/vite/dev/index.js
+index a70be05c9cc83c3506daf0a5612a4f927a425efc..3b2cbba7031af0fdb83fbfd7d1712f73c47293a8 100644
+--- a/src/exports/vite/dev/index.js
++++ b/src/exports/vite/dev/index.js
+@@ -513,7 +513,8 @@ export async function dev(vite, vite_config, svelte_config) {
+ 						if (remoteAddress) return remoteAddress;
+ 						throw new Error('Could not determine clientAddress');
+ 					},
+-					read: (file) => fs.readFileSync(path.join(svelte_config.kit.files.assets, file))
++					read: (file) => fs.readFileSync(path.join(svelte_config.kit.files.assets, file)),
++					platform: svelte_config.vitePlugin?.experimental?.devPlatform,
+ 				});
+ 
+ 				if (rendered.status === 404) {
+diff --git a/src/exports/vite/preview/index.js b/src/exports/vite/preview/index.js
+index 445334635d2ccc4650899965a9a03d75b6148ebc..df622cbe25aaf890d05c8e58c6a37c2383395477 100644
+--- a/src/exports/vite/preview/index.js
++++ b/src/exports/vite/preview/index.js
+@@ -177,7 +177,8 @@ export async function preview(vite, vite_config, svelte_config) {
+ 						if (remoteAddress) return remoteAddress;
+ 						throw new Error('Could not determine clientAddress');
+ 					},
+-					read: (file) => fs.readFileSync(join(svelte_config.kit.files.assets, file))
++					read: (file) => fs.readFileSync(join(svelte_config.kit.files.assets, file)),
++					platform: svelte_config.vitePlugin?.experimental?.devPlatform,
+ 				})
+ 			);
+ 		});
