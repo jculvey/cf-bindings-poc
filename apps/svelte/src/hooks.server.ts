@@ -12,7 +12,14 @@ if (dev) {
   - https://github.com/sveltejs/kit/pull/10544
 */
   const { getBindingsProxy } = await import("wrangler");
-  const { bindings } = await getBindingsProxy();
+  const { bindings } = await getBindingsProxy({
+    bindings: {
+      MY_KV: {
+        type: 'kv',
+        id: 'xxx',
+      }
+    }
+  });
   env = bindings;
 }
 
