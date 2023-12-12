@@ -9,7 +9,7 @@
     "lint": "next lint",
     "pages:build": "pnpm next-on-pages",
     "pages:deploy": "pnpm pages:build && wrangler pages deploy .vercel/output/static",
-    "pages:preview": "pnpm pages:build && pnpm wrangler pages dev .vercel/output/static --compatibility-date=2023-12-06 --compatibility-flag=nodejs_compat"
+    "pages:preview": "pnpm pages:build && pnpm wrangler pages dev .vercel/output/static --kv MY_KV --compatibility-date=2023-12-06 --compatibility-flag=nodejs_compat"
   },
   "dependencies": {
     "@cloudflare/workers-types": "^4.20231121.0",
