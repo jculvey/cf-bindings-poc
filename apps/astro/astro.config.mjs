@@ -6,8 +6,9 @@ import cloudflare from "@astrojs/cloudflare";
 export default defineConfig({
   output: "server",
   adapter: cloudflare({
-    mode: "directory",
     runtime: {
+      type: 'pages',
+      mode: 'local',
       bindings: {
         MY_KV: {
           type: "kv",

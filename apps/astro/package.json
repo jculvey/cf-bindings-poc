@@ -8,12 +8,14 @@
     "build": "astro check && astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "pages:dev": "wrangler pages dev --compatibility-date=2023-11-21 -- astro dev",
+    "pages:preview": "wrangler pages dev ./dist --kv MY_KV",
     "pages:deploy": "astro build && wrangler pages deploy ./dist"
   },
   "dependencies": {
+    "@astrojs/check": "^0.3.2",
     "@astrojs/cloudflare": "^8.0.0",
-    "astro": "^4.0.2"
+    "astro": "^4.0.2",
+    "typescript": "^5.3.3"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20231121.0",
