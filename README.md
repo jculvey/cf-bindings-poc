@@ -35,6 +35,10 @@ Currently Remix supports bindings in dev mode (since they rebuild the whole appl
 
 When moving to Vite they might lose access to bindings, Pete has a proposed idea on how developers could set a [`devLoadContext`](https://github.com/remix-run/remix/commit/adb4e86bde95db9851ce452d151b967e52162eb2) so that users could provide bindings in their vite.config.ts file in the same way they can for QwikCity ([source](https://github.com/jculvey/cf-bindings-poc/blob/e68b2d8851fab2f9a2186b4dd7df67758090f52d/apps/remix/vite.config.js#L15)).
 
+> [!NOTE]
+> Besides the proposed solution, if for example the Remix rejects it, could a solution via middlewares be possible?
+> I explored this but I don't think that that would actually be possible since Remix doesn't seem to provide middlewares, moreover [loaders are run in parallel](https://remix.run/docs/en/main/guides/faq#how-can-i-have-a-parent-route-loader-validate-the-user-and-protect-all-child-routes) meaning that the loader from a parent can't effect their children's (this excludes the possibility of having a root route with a loader that sets up the platform object for its children)
+
 > [!WARNING]
 > It's not clear what their plan is for their cloudflare integration, they do plan to support Cloudflare in their Vite dev server (as per their [docs](https://remix.run/docs/en/dev/future/vite)), so I feel like this is still a bit up in the air and we might need to sync with them and understand what the plan is.
 
