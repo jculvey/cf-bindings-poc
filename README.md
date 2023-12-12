@@ -5,7 +5,7 @@ This is a simple poc monorepo that illustrates how we can make bindings work in 
 > [!NOTE]
 > Here we only analyze the feasibility of allowing developers to access bindings locally and not to run code in workerd (as thus far we only had success with doing that with `preact` which doesn't even provide access to bindings)
 
-Each app can be run with `pnpm run dev` and will show info about KV on the root page. In addition, there are `/api/test` routes that take `POST` and `GET` methods. These can be used to verify that bindings state persists across requests.
+Each app can be run with `pnpm run dev` and will show info about KV on the root page. In addition, there are `/api/test` routes (in all frameworks except remix which doesn't have a concept of API routes) that take `POST` and `GET` methods. These can be used to verify that bindings state persists across requests.
 
 The code here is very rough at the moment, only aimed at validating the concept at the most basic level for each framework
 
