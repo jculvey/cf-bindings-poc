@@ -3,8 +3,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "poc_build": "poc build nuxt_build dist/_worker.js/index.js",
-    "nuxt_build": "NITRO_PRESET=cloudflare-pages nuxt build",
+    "build": "NITRO_PRESET=cloudflare-pages nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
