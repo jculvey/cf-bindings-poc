@@ -9,7 +9,7 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
     "pages:dev": "wrangler pages dev --compatibility-date=2023-11-21 --proxy 3000 -- pnpm run dev",
-    "pages:preview": "npx wrangler pages dev dist/",
+    "pages:preview": "npx wrangler pages dev dist/ --kv MY_KV",
     "pages:deploy": "pnpm run build && wrangler pages deploy ./dist"
   },
   "devDependencies": {
