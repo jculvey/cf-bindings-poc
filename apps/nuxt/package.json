@@ -14,7 +14,7 @@
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
-    "nitro-cloudflare-bindings": "^0.0.6",
+    "nitro-cloudflare-dev": "^0.0.6",
     "nuxt": "^3.9.3",
     "vue": "^3.4.15",
     "vue-router": "^4.2.5",
