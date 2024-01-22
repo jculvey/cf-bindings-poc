@@ -40,20 +40,14 @@ We've implemented the `next-dev` module so much further work is needed in order 
 
 We just need to finalize its API (it should accept options following the [`startDevWorker Bindings type`](https://github.com/cloudflare/workers-sdk/blob/ba9b88f76754fb4adb250798bb171af4347b0270/packages/wrangler/src/api/startDevWorker/types.ts#L34) once it is finalized/stable) and have it use `getBindingsProxy` (instead of reimplementing everything on its own).
 
-### Nuxt (`via-middlewares`)
+### Nuxt and Nitro (via [module](https://github.com/pi0/nitro-cloudflare-bindings))
 
-Unfortunately Nuxt does not provide a way of populating their context object during dev mode.
+Nuxt and Nitro support can be added via a simple module that adds context injection.
 
-We've investigated if we could propose a solution for config passing but that seems to be out of the question since their `nuxt.config.ts` gets string serialized and passed along, meaning that setting up proxies there without significant changes in Nitro is not feasible.
-
-So the only way we found to do so is by adding a server middleware that populates the context object on the fly ([source](https://github.com/jculvey/cf-bindings-poc/blob/master/apps/nuxt/server/middleware/dev.ts)).
-
-
-> [!WARNING]
-> Unfortunately in order for this to work, some changes in the [nuxt.config.ts](https://github.com/jculvey/cf-bindings-poc/blob/b4a544b8af4387e8174d119706132020250cd244/apps/nuxt/nuxt.config.ts#L4-L13) file are necessary
+See [pi0/nitro-cloudflare-bindings](https://github.com/pi0/nitro-cloudflare-bindings) for usage.
 
 > [!NOTE]
-> A more proper solution instead of using middleware (which ends up in the production bundle) would be to use Nuxt modules and [`addDevServerHandler`](https://nuxt.com/docs/api/kit/nitro#adddevserverhandler) I did experiment with that ([source](https://github.com/jculvey/cf-bindings-poc/blob/nuxt-module/apps/nuxt/module.ts#L14-L19)) but unfortunately it doesn't work as it looks like the event object that devHandlers receives is not the same that the rest of the code receives.
+> Nitro project plans to introduce a new method to allow native dev presets, meaning you can natively run [miniflare](https://miniflare.dev/) as your development server without this module or a proxy in the future.
 
 ### QwikCity (`via-config-passing`)
 
