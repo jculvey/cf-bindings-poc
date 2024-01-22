@@ -9,8 +9,8 @@ devDependencies:
     specifier: latest
     version: 1.0.8(nuxt@3.9.3)(vite@5.0.12)
   nitro-cloudflare-bindings:
-    specifier: ^0.0.1
-    version: 0.0.1
+    specifier: ^0.0.3
+    version: 0.0.3
   nuxt:
     specifier: ^3.9.3
     version: 3.9.3(vite@5.0.12)
@@ -4135,8 +4135,8 @@ packages:
     engines: {node: '>= 0.6'}
     dev: true
 
-  /nitro-cloudflare-bindings@0.0.1:
-    resolution: {integrity: sha512-ZZIRzfxKBJMXeZRwFJGWhy15nFISWsipvyFZ9GYS7GcbNNMBkXZ49AGoekpNrcBMOYYK2wnSYdnzC9xeoENK1Q==}
+  /nitro-cloudflare-bindings@0.0.3:
+    resolution: {integrity: sha512-MuNhY4fXlFuHTTyibzgJ2NWKYN0jadjkGUzVbCEosV1iBdOw1ITXRs3sD0mZMKwkBoctc+4cDaPBCNwSvmGkVw==}
     dependencies:
       '@iarna/toml': 2.2.5
       consola: 3.2.3
