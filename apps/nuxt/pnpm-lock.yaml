@@ -9,8 +9,8 @@ devDependencies:
     specifier: latest
     version: 1.0.8(nuxt@3.9.3)(vite@5.0.12)
   nitro-cloudflare-bindings:
-    specifier: ^0.0.5
-    version: 0.0.5
+    specifier: ^0.0.6
+    version: 0.0.6
   nuxt:
     specifier: ^3.9.3
     version: 3.9.3(vite@5.0.12)
@@ -4131,8 +4131,8 @@ packages:
     engines: {node: '>= 0.6'}
     dev: true
 
-  /nitro-cloudflare-bindings@0.0.5:
-    resolution: {integrity: sha512-HlOkjcUGFk26jra7OKZmb3lvYRZCYBdZZqRrP/n7vNceC5CmpVMbosLJQdFREVgq0yV3yWaHdq3KJHLZtuAqoA==}
+  /nitro-cloudflare-bindings@0.0.6:
+    resolution: {integrity: sha512-lp2//uPmVWdRZgO24BVUtn3UhN2cl8AiAEyCZHdWhVR+3FrooTqQrs6L8HYCYrjNVvTezYy6eR82kYpnW4Uc/Q==}
     dependencies:
       consola: 3.2.3
       pkg-types: 1.0.3
