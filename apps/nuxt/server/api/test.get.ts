@@ -1,5 +1,8 @@
-export default defineEventHandler(async ({ context }) => {
-  const kvResult = await context.cloudflare.env.MY_KV.get("MY_KEY");
+export default eventHandler(async (event) => {
+  const { MY_KV } = event.context.cloudflare.env;
 
-  return { kvResult };
+  let ctr = (await MY_KV.get("counter")) || 0;
+  await MY_KV.put("counter", ++ctr);
+
+  return { counter: ctr };
 });
